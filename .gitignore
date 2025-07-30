@@ -1,0 +1,50 @@
+# Node / React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+.expo/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Android
+android/app/build/
+android/build/
+android/app/src/main/assets/
+android/.gradle/
+android/app/.cxx/
+android/app/debug/
+android/app/release/
+android/app/profile/
+
+# iOS
+ios/build/
+ios/Pods/
+*.xcworkspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*venv/
+*/venv/
+.venv/
+env/
+venv.bak
+.env
+
+# Editor & OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
