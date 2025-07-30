@@ -55,7 +55,7 @@ EcoEcho is built on a microservices-oriented architecture, ensuring scalability 
 
 1.  **Frontend (`EcoEcho-frontend`)**: A cross-platform mobile app built with React Native and Expo. It handles all user interactions, captures images, and communicates exclusively with the backend API.
 2.  **Backend (`EcoEcho-backend`)**: A Node.js/Express server that acts as the central hub. It manages user authentication, processes business logic, stores all user and waste data in a MongoDB database, and acts as a proxy for the ML service.
-3.  **Machine Learning API (`waste-management-api`)**: A lightweight Python/Flask microservice. Its sole responsibility is to receive an image, process it using a pre-trained TensorFlow/Keras model, and return the classification result to the backend.
+3.  **Machine Learning API (`waste-management-api`)**: A lightweight Python/Flask microservice. Its sole responsibility is to receive an image, process it using a trained TensorFlow/Keras MobileNetV2 model, and return the classification result to the backend (Please refer to https://github.com/ArunGarimella04/waste-management-api for the repository for the waate-management-api). 
 
 <br>
 
